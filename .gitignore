@@ -1,0 +1,49 @@
+# Virtual environment
+.venv/
+.idea
+# Ignore any compiled Python files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore the Django migration files
+**/migrations/
+
+# Ignore the local settings file
+**/local_settings.py
+
+# Ignore the database file
+db.sqlite3
+
+# Ignore the media folder (if used)
+media/
+
+# Ignore the static files (if collected locally)
+static/
+
+# Ignore the logs
+logs/
+
+# Ignore the development settings file
+**/settings_dev.py
+
+# Ignore the test database
+**/test_*.db
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore the system files created by Windows
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+
+# Ignore the MongoDB data directory
+/data/db/
+
+# Ignore database backup files
+*.bak
+
+
+
